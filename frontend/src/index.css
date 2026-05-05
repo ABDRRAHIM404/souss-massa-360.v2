@@ -1,16 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-* {
-  box-sizing: border-box;
-}
+@import "tailwindcss";
 
 html {
   scroll-behavior: smooth;
 }
 
-/* Hide scrollbar for category row */
 .scrollbar-hide {
   -ms-overflow-style: none;
   scrollbar-width: none;
